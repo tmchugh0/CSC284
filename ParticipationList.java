@@ -9,9 +9,10 @@ public class ParticipationList {
       //TODO: Create a Student Object with your first and last name and add them to the students list
       students.add(new Student("Colson","Dunlap"));
       students.add(new Student("John","Doe"));
-      students.add(new Student("Nadia", "Brandl");
+      students.add(new Student("Nadia", "Brandl"));
       students.add(new Student("Safron","Haile"));
       students.add(new Student("Chris","Gouin"));
+      students.add(new Student("Cameron", "Lawrence"));
 
       //Sort the list by last name
       students.sort((o1,o2) -> o1.getLastName().compareTo(o2.getLastName()));
