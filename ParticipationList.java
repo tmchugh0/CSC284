@@ -22,6 +22,7 @@ public class ParticipationList {
       students.add(new Student("Rosario", "Patricia"));
       students.add(new Student("Aimy", "Kohli"));
       students.add(new Student("Gilmari", "Velazco"));
+      student.add(new Student("Frank", "Lopez Chaparro"));
       students.add(new Student("Duy", "Pham"));
 
       //Sort the list by last name
