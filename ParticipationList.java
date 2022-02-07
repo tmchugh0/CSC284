@@ -24,6 +24,7 @@ public class ParticipationList {
       students.add(new Student("Gilmari", "Velazco"));
       student.add(new Student("Frank", "Lopez Chaparro"));
       students.add(new Student("Duy", "Pham"));
+      students.add(new Student("Anna","Winter"));
 
       //Sort the list by last name
       students.sort((o1,o2) -> o1.getLastName().compareTo(o2.getLastName()));
